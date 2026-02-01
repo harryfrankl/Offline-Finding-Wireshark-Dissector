@@ -8,7 +8,7 @@ A Wireshark dissector plugin for decoding Apple's Offline Finding (OF) protocol,
 - Extracts battery level from status byte
 - Displays 22-byte public key fragment
 - Reconstructs full 28-byte EC P-224 public key (MAC address + fragment)
-- Shows key hint and rotation counter
+- Displays key hint and rotation counter fields
 - Warns on non-standard payload lengths
 
 ## Installation
